@@ -13,9 +13,9 @@ While we do multilabel classification, we want to explore the effects of multlin
 
 # Problem Definition
 
-Given a tweet ***t* ** that contains news in Arabic. Classify whether ***t* ** belongs to one and only one of the following classes: **Real**, **Satire** or **Fake**. 
+Given a tweet ***t*** that contains news in Arabic. Classify whether ***t*** belongs to one and only one of the following classes: **Real**, **Satire** or **Fake**. 
 
-[Image]
+![Labels Example](Images/labels.png)
 
 ## What labels mean for this experiment
 In this experiment I define the classes as following:
@@ -42,7 +42,7 @@ in the literature on COVID-19 Fake news. The following table describes the datas
 | ARCOV19-Rumors [3]          | Fake   | From (Houari et al 2021)     | 311  |
 | AraCOVID19-MFH [4]          | Fake   | From (Ameur & Aliane, 2021)  | 78   |
 | NLP4IF-AR [5]               | Fake   | From (Panda & Levitan, 2021) | 69   |
-|** Total Arabic Datapoints** |        |                         | **1359 **|
+|**Total Arabic Datapoints** |        |                         | **1359**|
 
 
 | Source                     | Label  | Method             | Number of Datapoints used  |
@@ -66,9 +66,9 @@ The following lists the models and data used for each experiment
 
 All models are evaulated on arabic evaluation data in training time, and arabic test data in the testing time. 
 
-The following figure introduces the model pipeline used in this experiment.
+The following figure introduces the flowchart of this experiment:
 
-![Project Pipeline](images/Project_pipline.png)
+![Experiment flow-chart](Images/experiment-flow-chart.png)
 
 
 ## Models Training
@@ -86,10 +86,10 @@ Accuracy, Precision, Recall and F1-score were used as metrics for measuring the 
 # Models performance in training 
 
 F1 scores on evalatuion set:
-[image]
+![eval_macro_f1](Images/eval_macro_f1.png)
 
 training vs validation loss:
-[image]
+![train_val_loss](Images/train_val_loss.png)
 
 # Test Results
 
