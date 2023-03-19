@@ -55,7 +55,7 @@ in the literature on COVID-19 Fake news. The following table describes the datas
 
 
 ## Data Preprocessing
-
+Links, hashtags, usernames, emojis, and news markers likes "عاجل" "Breaking.*" "Updates" and others were removed from the tweets. Also tweets with length size less than 35 chars where removed from the dataset. more information is included in the notebooks. 
 
 ## Machine Learning Models
 
