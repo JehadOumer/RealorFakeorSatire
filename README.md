@@ -64,7 +64,7 @@ The following lists the models and data used for each experiment
 2. XLM-RoBERTa with Arabic training data
 3. XLM-RoBERTa with Arabic training data + English data
 
-All models are evaulated on arabic evaluation data in training time, and arabic test data in the testing time. 
+All models are evaluated on Arabic evaluation data during training time and Arabic test data during testing time.
 
 The following figure introduces the flowchart of this experiment:
 
