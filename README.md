@@ -5,9 +5,9 @@
 # Project Description
 Experiments on the binary classification of news as real or fake and fake or satire are common in Arabic literature. Nevertheless, research on multi-label classification for the three classes together is non-existent, at least to my knowledge.
 
-In this experiment, we try to experiment on the multilabel classification of tweets as Real, fake, and satire. For this, we will be using AraBERT [1], and XLMRoBERTa [2] pre-trained models. I have created a hybrid dataset that contains tweets I collected recently along with some data from the literature.
+In this experiment, we try to experiment on the multiclass classification of tweets as Real, fake, and satire. For this, we will be using AraBERT [1], and XLMRoBERTa [2] pre-trained models. I have created a hybrid dataset that contains tweets I collected recently along with some data from the literature.
 
-While we do multilabel classification, we want to explore the effects of multilingual settings on model performance. For this, I will experiment with training on XLMRoBERT Arabic training data that is augmented with English data points.
+While we do multiclass classification, we want to explore the effects of multilingual settings on model performance. For this, I will experiment with training on XLMRoBERT Arabic training data that is augmented with English data points.
 
 
 
